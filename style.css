@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    background-image: url('images/read_news.jpg');
+    background-repeat: no-repeat;
+    background-size: 1175px 105vh;
+    background-position:top 0 left 300px;
+}
+
+
+.content{
+    padding: 50px 30px;
+
+    width: 720px;
+    height: 100vh;
+
+    background-color: var(--body-bg-color);
+}
+
+.logo img{
+
+
+
+width: 389px;
+height: 94px;
+
+object-fit: cover;
+}
+
+main {
+    margin-top: 92px;
+    width: 647px;
+    height: auto;
+}
+main p{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+
+main p:nth-child(2){
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+
+main p:nth-child(1) {
+    margin-bottom: 11px;
+
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--title-color); 
+}
+
+form {
+ margin-top: 50px;
+width: 800px;
+height: auto;
+
+}
+
+legend {
+    margin-bottom: 17px;
+
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+       
+    color: var(--form-color);
+}
+
+
+input {
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+    width: 798px;
+    height: 48px;
+    border: none;
+    
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px;
+
+    width: 48px;
+    height: 48px;
+
+    background-color: var(--bg-button-color);
+    border: none;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-top: 50px;
+    
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138.73%;
+
+    color: #8257E5;
+
+}
